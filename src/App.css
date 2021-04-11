@@ -1,0 +1,36 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
+.App {
+  background-color: rgb(243, 240, 240);
+  height: 100%;
+}
+
+
+.App-header {
+  object-fit: contain;
+  background-color: white;
+  border-bottom: 1px solid lightgray;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.header-img{
+  max-width: 150px;
+  padding: 10px;
+  object-fit: contain;
+}
+.app_post{
+  margin: 20px;
+}
+.app-Signup{
+  display: flex;
+  flex-direction: column;
+}
+.error{
+  text-align: center;
+  padding-bottom: 20px;
+}
+
